@@ -10,7 +10,7 @@ from model_v2 import (S, run, households, dist, coverage, POLICIES, CRITERIA,
 
 W = 100
 KIM = dict(wall178=-0.9, shakai_kakudai=4.5, zaishoku=-0.3,
-           food_vat_cut=-1.2, food_vat_years=2, credit=3.0)
+           food_vat_cut=-4.2, food_vat_years=2, credit=3.0)
 
 # 政治採点にもとづく3つの束
 # A: 4点以上（やや高い〜ほぼ確実）だけ            → 生産性 +0.75pt
